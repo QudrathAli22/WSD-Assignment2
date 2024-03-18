@@ -1,0 +1,34 @@
+body {
+  background: linear-gradient(to right, #38b2ac, #f6e05e);
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 14%;
+}
+
+.vandc,
+.palindromecheck,
+.bill {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+input,
+button {
+  margin-top: 10px;
+}
+#result,
+#results,
+#totalResult{
+  color: black;
+}
